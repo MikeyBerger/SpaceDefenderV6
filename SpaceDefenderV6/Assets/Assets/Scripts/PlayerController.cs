@@ -155,7 +155,6 @@ public class PlayerController : MonoBehaviour
     {
         if (IsShooting)
         {
-            Instantiate(MuzzleFlash, MuzzleFlashPoint.position, MuzzleFlashPoint.rotation);
             StartCoroutine(StartShooting());
             IsShooting = false;
         }

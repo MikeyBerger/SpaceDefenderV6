@@ -69,7 +69,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 883577089
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -7292798746301496257, guid: 8ed52047b35db4dc9a1c8789b013e17b,
     type: 3}
@@ -168,7 +168,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1170955273
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 2429855376248430252, guid: 8ed52047b35db4dc9a1c8789b013e17b,
     type: 3}
@@ -449,6 +449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7187752848427768093}
+  - component: {fileID: 9073066943142798166}
   m_Layer: 0
   m_Name: MuzzleFlashPoint
   m_TagString: Untagged
@@ -470,6 +471,21 @@ Transform:
   m_Father: {fileID: 2256166232082207355}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9073066943142798166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6041293245174477130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2b49f0be87c46258b8793aed02c3b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MuzzleFlash: {fileID: 6247096546745163307, guid: 36fc5aea97db444c6a9d016964a47b33,
+    type: 3}
+  MuzzleFlashPoint: {fileID: 7187752848427768093}
 --- !u!1 &6760572528153042734
 GameObject:
   m_ObjectHideFlags: 0
